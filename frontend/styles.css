@@ -1,0 +1,162 @@
+.search-type {
+    margin-bottom: 20px;
+    display: inline-block;
+    justify-content: flex-start; /* align left */
+    gap: 1rem; /* space between buttons */
+    margin-top: 1rem;
+    width: auto; /* prevents full-width stretching */
+}
+
+
+.search-type button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    background: rgb(0, 100, 95);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-type button.active {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+    }
+
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.measurements {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#results {
+    margin-top: 30px;
+    right: 0px;
+    display: grid;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.result-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.result-card h3 {
+    margin-top: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.result-card p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.result-card a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.result-card a:hover {
+    text-decoration: underline;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* form | results */
+    gap: 30px;
+    align-items: start;
+}

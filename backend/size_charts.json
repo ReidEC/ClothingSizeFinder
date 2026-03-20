@@ -1,0 +1,54 @@
+{
+  "brands": [
+    {
+      "name": "DXL (Destination XL)",
+      "type": ["shirt", "hoodie", "pants"],
+      "sizes": {
+        "XL":  { "chest": [46, 48], "waist": [40, 42], "neck": [17, 17.5], "sleeve": [35, 35.5], "inseam": [30, 32] },
+        "2XL": { "chest": [50, 52], "waist": [44, 46], "neck": [18, 18.5], "sleeve": [35.5, 36], "inseam": [30, 32] },
+        "3XL": { "chest": [54, 56], "waist": [48, 50], "neck": [19, 19.5], "sleeve": [36, 36.5], "inseam": [30, 32] },
+        "4XL": { "chest": [58, 60], "waist": [52, 54], "neck": [20, 20.5], "sleeve": [36.5, 37], "inseam": [30, 32] }
+      }
+    },
+    {
+      "name": "Carhartt Big & Tall",
+      "type": ["shirt", "hoodie", "pants"],
+      "sizes": {
+        "XL":  { "chest": [46, 48], "waist": [40, 42], "neck": [17, 17.5], "sleeve": [35, 35.5], "inseam": [30, 32] },
+        "2XL": { "chest": [50, 52], "waist": [44, 46], "neck": [18, 18.5], "sleeve": [35.5, 36], "inseam": [30, 32] },
+        "3XL": { "chest": [54, 56], "waist": [48, 50], "neck": [19, 19.5], "sleeve": [36, 36.5], "inseam": [30, 32] },
+        "4XL": { "chest": [58, 60], "waist": [52, 54], "neck": [20, 20.5], "sleeve": [36.5, 37], "inseam": [30, 32] }
+      }
+    },
+    {
+      "name": "KingSize",
+      "type": ["shirt", "hoodie", "pants"],
+      "sizes": {
+        "XL":  { "chest": [46, 48], "waist": [40, 42], "neck": [17, 17.5], "sleeve": [35, 35.5], "inseam": [30, 32] },
+        "2XL": { "chest": [50, 52], "waist": [44, 46], "neck": [18, 18.5], "sleeve": [35.5, 36], "inseam": [30, 32] },
+        "3XL": { "chest": [54, 56], "waist": [48, 50], "neck": [19, 19.5], "sleeve": [36, 36.5], "inseam": [30, 32] },
+        "4XL": { "chest": [58, 60], "waist": [52, 54], "neck": [20, 20.5], "sleeve": [36.5, 37], "inseam": [30, 32] }
+      }
+    },
+    {
+      "name": "Columbia Big & Tall",
+      "type": ["shirt", "hoodie", "pants"],
+      "sizes": {
+        "XL":  { "chest": [46, 48], "waist": [40, 42], "neck": [17, 17.5], "sleeve": [35, 35.5], "inseam": [30, 32] },
+        "2XL": { "chest": [50, 52], "waist": [44, 46], "neck": [18, 18.5], "sleeve": [35.5, 36], "inseam": [30, 32] },
+        "3XL": { "chest": [54, 56], "waist": [48, 50], "neck": [19, 19.5], "sleeve": [36, 36.5], "inseam": [30, 32] },
+        "4XL": { "chest": [58, 60], "waist": [52, 54], "neck": [20, 20.5], "sleeve": [36.5, 37], "inseam": [30, 32] }
+      }
+    },
+    {
+      "name": "Ralph Lauren Big & Tall",
+      "type": ["shirt", "hoodie", "pants"],
+      "sizes": {
+        "XL":  { "chest": [46, 48], "waist": [40, 42], "neck": [17, 17.5], "sleeve": [35, 35.5], "inseam": [30, 32] },
+        "2XL": { "chest": [50, 52], "waist": [44, 46], "neck": [18, 18.5], "sleeve": [35.5, 36], "inseam": [30, 32] },
+        "3XL": { "chest": [54, 56], "waist": [48, 50], "neck": [19, 19.5], "sleeve": [36, 36.5], "inseam": [30, 32] },
+        "4XL": { "chest": [58, 60], "waist": [52, 54], "neck": [20, 20.5], "sleeve": [36.5, 37], "inseam": [30, 32] }
+      }
+    }
+  ]
+}
