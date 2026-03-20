@@ -14,7 +14,6 @@ clothing-size-matcher
 │   └── backend
 │       ├── app.py           # Main entry point for the backend application
 │       ├── search.py        # Functions for processing user input and searching for clothing
-│       ├── crawler.py       # Future integration for web crawling
 │       └── requirements.txt  # Python dependencies for the backend
 ├── .gitignore               # Files and directories to ignore in version control
 └── README.md                # Documentation for the project
